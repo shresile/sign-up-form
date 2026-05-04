@@ -109,15 +109,10 @@ body {
     font-weight: 600;
 }
 
-.info-form {
-    /* border-top: 1px #fff solid;
-    border-bottom: 1px #fff solid; */
+.info-form {   
     margin: 5vh 0;
     padding: 20px 0 40px 0;
-    box-shadow: 0 0px 12px #ddd;
-    /* box-shadow: 0 -12px 12px -2px #eee; */
-
-
+    box-shadow: 0 0px 12px #ddd;  
 }
 
 .form-body {
@@ -144,7 +139,17 @@ body {
 .form-body input {
     height: 30px;
     width: 280px;
-    border: #ccc 1px solid;
+    border: #E5E7EB 1px solid;
     border-radius: 5px;
+    outline: none;
 }
 
+
+#sign-up input:user-invalid{
+    border: #ec477e 2px solid;
+}
+
+input:focus {
+    border: rgb(23, 88, 228) 2px solid;
+    box-shadow: 2px 2px 4px #cfcfcf;
+}
