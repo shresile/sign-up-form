@@ -153,3 +153,19 @@ input:focus {
     border: rgb(23, 88, 228) 2px solid;
     box-shadow: 2px 2px 4px #cfcfcf;
 }
+
+.submit-part button {
+    background-color: #982825;
+    color: #f7f8f8;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #cfcfcf;
+}
+
+.submit-part span {
+    color: #982825;
+    font-weight: 600;
+}
